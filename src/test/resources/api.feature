@@ -1,7 +1,8 @@
-1. **Feature File** (`src/test/java/features/api.feature`):
-
-
 Feature: API Testing using REST Assured
+
+
+
+
 
   Scenario: Validate GET request for echo API
     Given I send a GET request to "https://echo.free.beeceptor.com/sample-request?author=beeceptor"
